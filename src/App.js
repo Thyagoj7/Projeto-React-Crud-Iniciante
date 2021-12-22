@@ -1,8 +1,10 @@
 import React from 'react'
 
 const App = () => {
-  return (
-    <h1>hello Word</h1>
+ 
+    const message = "hello Word"
+    return (
+    <h1>{message}</h1>
   )
 }
 
